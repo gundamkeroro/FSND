@@ -1,0 +1,14 @@
+How to run this :
+
+After the instruction from udacity website to setup VM.
+
+`vagrant ssh` to VM and create tables and views:
+cd to where your code is located and type the following commands on you terminal:
+
+`psql -> create database tournament; -> \c tournament -> \i tournament.sql -> \q`
+
+to run the tests of this project on your terminal typing:
+
+`python tournament_test.py`
+
+You will see the information from tournament_test.py.
